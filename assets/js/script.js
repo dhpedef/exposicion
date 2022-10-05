@@ -50,6 +50,7 @@ $(function () {
 
 
 
+
     var $section = $('.section-skills');
     function loadDaBars() {
         $('.progress .progress-bar').progressbar({

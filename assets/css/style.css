@@ -1061,6 +1061,7 @@ html, body {
   opacity: 1;
 }
 
+
 .section-services .item-controls .carousel-control i {
   position: absolute;
   top: 50%;
@@ -1770,7 +1771,7 @@ html, body {
     content: none;
   }
   .timeline > li .timeline-rectangle {
-    disply: none;
+    display: none;
   }
 }
 
