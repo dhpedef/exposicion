@@ -1,5 +1,5 @@
 $(function () {    
-// Navigation 
+
     $('.site-navigation').affix({
       offset: {
         top: $('.hero').height()
@@ -15,18 +15,18 @@ $(function () {
             });
         }
     }
-    // Execute on load
+
     checkWidth();
     // Bind event listener
     $(window).resize(checkWidth);
 
-// Highlight the top nav as scrolling occurs
+
     $('body').scrollspy({
         target: '.site-header',
         offset: 10
     });
 
-//jQuery for page scrolling feature - requires jQuery Easing plugin
+
     $(document).on('click', '.page-scroll a', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
@@ -35,7 +35,6 @@ $(function () {
         event.preventDefault();
     });
 
-//Counters 
     if ($(".counter-start").length>0) {
         $(".counter-start").each(function() {
             var stat_item = $(this),
@@ -50,7 +49,7 @@ $(function () {
     };
 
 
-// Progress bar 
+
     var $section = $('.section-skills');
     function loadDaBars() {
         $('.progress .progress-bar').progressbar({
